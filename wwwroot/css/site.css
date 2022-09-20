@@ -1,0 +1,22 @@
+html {
+  font-size: 14px;
+  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+body {
+  margin-bottom: 60px;
+  background: rgb(1,46,64);
+  background: linear-gradient(90deg, rgba(1,46,64,1) 0%, rgba(2,103,115,1) 50%, rgba(60,166,166,1) 100%);
+}

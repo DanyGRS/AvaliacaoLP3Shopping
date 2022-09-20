@@ -1,0 +1,46 @@
+@model AvaliacaoLP3.ViewModels.LojaViewModel;
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<div class="text-center">
+    <h1>@Model.LK: @Model.Nome</h1>
+    <br>
+    <hr>
+    <p>Id: @Model.Id</p>
+    <hr>
+    <p>Email: @Model.Email</p>
+    <hr>
+    <p>Descrição: @Model.Descricao</p>
+    <hr>
+    <p>@Model.Piso</p>
+    <hr>
+</div>
+<form action="../Delete/@Model.Id">
+    <button class="bt">Remover @Model.LK da lista</button>
+</form>
+
+<style>
+    body{
+       color: white; 
+    }
+    .asd{
+        color: white; 
+    }
+    .fot{
+        margin-left: 10px;
+    }
+    .bt{
+        background-color: #026773;
+        color: #fff;
+        border:none;
+        border-radius: 6px;cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .bt:hover{
+        background-color: #012E40;
+        
+    }
+
+</style>

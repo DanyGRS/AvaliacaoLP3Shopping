@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Validação";
+    var nome = ViewData["nome"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">O estabelecimento @nome já consta no nosso cadastro</h1>
+    <h4><a class="asd" asp-area="" asp-controller="Loja" asp-action="Cadastramento"><strong>Clique Aqui</strong> e cadastre uma loja com outro nome</a></h4>
+</div>
+
+<style>
+    body{
+       color: white; 
+    }
+
+    .asd{
+        color:white;
+    }
+    
+    .fot{
+        margin-left: 10px;
+    }
+
+</style>
